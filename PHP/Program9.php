@@ -26,7 +26,7 @@ b
         ?>
 
         <h2>PRESBYTERIAN UNIVERSITY NEW STUDENT REGISTRATION</h2>
-        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+        <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
             <label>Name: </label> <input type="text" name="name"><br><br>
             <label>E-Mail: </label> <input type="text" name="email"><br><br>
             <label>Website: </label><input type="text" name="website"><br><br>
